@@ -1,18 +1,21 @@
-<!DOCTYPE html><html lang="pt-br"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Porto - Bootstrap eCommerce Template</title>
 
-    <meta name="keywords" content="HTML5 Template">
+    <meta name="keywords" content="HTML5 Template" />
     <meta name="description" content="Porto - Bootstrap eCommerce Template">
     <meta name="author" content="SW-THEMES">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/images/icons/favicon.png">
 
-    <script type="module" src="/js/webfont.js" async=""></script><script type="module">
+    <script type="module">
         WebFontConfig = {
             google: {
                 families: ['Open+Sans:300,400,600,700,800', 'Poppins:300,400,500,600,700', 'Shadows+Into+Light:400']
@@ -21,34 +24,22 @@
         (function(d) {
             var wf = d.createElement('script'),
                 s = d.scripts[0];
-            wf.src = 'assets/js/webfont.js';
+            wf.src = '/js/webfont.js';
             wf.async = true;
             s.parentNode.insertBefore(wf, s);
         })(document);
     </script>
 
     <!-- Plugins CSS File -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!-- Main CSS File -->
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
     <div class="page-wrapper">
-        <div class="top-notice bg-primary text-white">
-            <div class="container text-center">
-                <h5 class="d-inline-block">Get Up to <b>40% OFF</b> New-Season Styles</h5>
-                <a href="category.html" class="category">MEN</a>
-                <a href="category.html" class="category ml-2 mr-3">WOMEN</a>
-                <small>* Limited time only.</small>
-                <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-            </div>
-            <!-- End .container -->
-        </div>
-        <!-- End .top-notice -->
-
         <header class="header">
             <div class="header-top">
                 <div class="container">
@@ -59,11 +50,11 @@
 
                     <div class="header-right header-dropdowns ml-0 ml-sm-auto w-sm-100">
                         <div class="header-dropdown dropdown-expanded d-none d-lg-block">
-                            <a href="#">Links</a>
+                            <a href="product-custom-tab.html#">Links</a>
                             <div class="header-menu">
                                 <ul>
                                     <li><a href="dashboard.html">My Account</a></li>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                     <li><a href="blog.html">Blog</a></li>
                                     <li><a href="wishlist.html">My Wishlist</a></li>
                                     <li><a href="cart.html">Cart</a></li>
@@ -77,12 +68,12 @@
                         <span class="separator"></span>
 
                         <div class="header-dropdown">
-                            <a href="#"><i class="flag-us flag"></i>ENG</a>
+                            <a href="product-custom-tab.html#"><i class="flag-us flag"></i>ENG</a>
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="#"><i class="flag-us flag mr-2"></i>ENG</a>
+                                    <li><a href="product-custom-tab.html#"><i class="flag-us flag mr-2"></i>ENG</a>
                                     </li>
-                                    <li><a href="#"><i class="flag-fr flag mr-2"></i>FRA</a></li>
+                                    <li><a href="product-custom-tab.html#"><i class="flag-fr flag mr-2"></i>FRA</a></li>
                                 </ul>
                             </div>
                             <!-- End .header-menu -->
@@ -90,11 +81,11 @@
                         <!-- End .header-dropown -->
 
                         <div class="header-dropdown mr-auto mr-sm-3 mr-md-0">
-                            <a href="#">USD</a>
+                            <a href="product-custom-tab.html#">USD</a>
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="#">EUR</a></li>
-                                    <li><a href="#">USD</a></li>
+                                    <li><a href="product-custom-tab.html#">EUR</a></li>
+                                    <li><a href="product-custom-tab.html#">USD</a></li>
                                 </ul>
                             </div>
                             <!-- End .header-menu -->
@@ -104,9 +95,9 @@
                         <span class="separator"></span>
 
                         <div class="social-icons">
-                            <a href="#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
-                            <a href="#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
-                            <a href="#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
+                            <a href="product-custom-tab.html#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
+                            <a href="product-custom-tab.html#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
+                            <a href="product-custom-tab.html#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
                         </div>
                         <!-- End .social-icons -->
                     </div>
@@ -120,8 +111,8 @@
                 <div class="container">
                     <div class="header-left col-lg-2 w-auto pl-0">
                         <button class="mobile-menu-toggler text-primary mr-2" type="button">
-							<i class="fas fa-bars"></i>
-						</button>
+                            <i class="fas fa-bars"></i>
+                        </button>
                         <a href="demo4.html" class="logo">
                             <img src="/images/logo.png" width="111" height="44" alt="Porto Logo">
                         </a>
@@ -130,30 +121,30 @@
 
                     <div class="header-right w-lg-max">
                         <div class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
-                            <a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
-                            <form action="#" method="get">
+                            <a href="product-custom-tab.html#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+                            <form action="product-custom-tab.html#" method="get">
                                 <div class="header-search-wrapper">
-                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search..." required="">
+                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search..." required>
                                     <div class="select-custom">
                                         <select id="cat" name="cat">
-											<option value="">All Categories</option>
-											<option value="4">Fashion</option>
-											<option value="12">- Women</option>
-											<option value="13">- Men</option>
-											<option value="66">- Jewellery</option>
-											<option value="67">- Kids Fashion</option>
-											<option value="5">Electronics</option>
-											<option value="21">- Smart TVs</option>
-											<option value="22">- Cameras</option>
-											<option value="63">- Games</option>
-											<option value="7">Home & Garden</option>
-											<option value="11">Motors</option>
-											<option value="31">- Cars and Trucks</option>
-											<option value="32">- Motorcycles & Powersports</option>
-											<option value="33">- Parts & Accessories</option>
-											<option value="34">- Boats</option>
-											<option value="57">- Auto Tools & Supplies</option>
-										</select>
+                                            <option value="">All Categories</option>
+                                            <option value="4">Fashion</option>
+                                            <option value="12">- Women</option>
+                                            <option value="13">- Men</option>
+                                            <option value="66">- Jewellery</option>
+                                            <option value="67">- Kids Fashion</option>
+                                            <option value="5">Electronics</option>
+                                            <option value="21">- Smart TVs</option>
+                                            <option value="22">- Cameras</option>
+                                            <option value="63">- Games</option>
+                                            <option value="7">Home &amp; Garden</option>
+                                            <option value="11">Motors</option>
+                                            <option value="31">- Cars and Trucks</option>
+                                            <option value="32">- Motorcycles &amp; Powersports</option>
+                                            <option value="33">- Parts &amp; Accessories</option>
+                                            <option value="34">- Boats</option>
+                                            <option value="57">- Auto Tools &amp; Supplies</option>
+                                        </select>
                                     </div>
                                     <!-- End .select-custom -->
                                     <button class="btn icon-magnifier p-0" type="submit"></button>
@@ -168,21 +159,20 @@
                             <h6><span>Call us now</span><a href="tel:#" class="text-dark font1">+123 5678 890</a></h6>
                         </div>
 
-                        <a href="login.html" class="header-icon" title="login"><i class="icon-user-2"></i></a>
+                        <a href="login.html" class="header-icon " title="login"><i class="icon-user-2"></i></a>
 
                         <a href="wishlist.html" class="header-icon" title="wishlist"><i class="icon-wishlist-2"></i></a>
 
                         <div class="dropdown cart-dropdown">
-                            <a href="#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                            <a href="product-custom-tab.html#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <i class="minicart-icon"></i>
                                 <span class="cart-count badge-circle">3</span>
                             </a>
 
-
                             <div class="cart-overlay"></div>
 
                             <div class="dropdown-menu mobile-cart">
-                                <a href="#" title="Close (Esc)" class="btn-close">×</a>
+                                <a href="product-custom-tab.html#" title="Close (Esc)" class="btn-close">×</a>
 
                                 <div class="dropdownmenu-wrapper custom-scrollbar">
                                     <div class="dropdown-cart-header">Shopping Cart</div>
@@ -196,17 +186,17 @@
                                                 </h4>
 
                                                 <span class="cart-product-info">
-													<span class="cart-product-qty">1</span> × $99.00
+                                                    <span class="cart-product-qty">1</span> × $99.00
                                                 </span>
                                             </div>
                                             <!-- End .product-details -->
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
-                                                    <img src="/images/product-1.jpg" alt="product" width="80" height="80">
+                                                    <img src="/images/products/product-1.jpg" alt="product" width="80" height="80">
                                                 </a>
 
-                                                <a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+                                                <a href="product-custom-tab.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
                                             </figure>
                                         </div>
                                         <!-- End .product -->
@@ -218,17 +208,17 @@
                                                 </h4>
 
                                                 <span class="cart-product-info">
-													<span class="cart-product-qty">1</span> × $35.00
+                                                    <span class="cart-product-qty">1</span> × $35.00
                                                 </span>
                                             </div>
                                             <!-- End .product-details -->
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
-                                                    <img src="/images/product-2.jpg" alt="product" width="80" height="80">
+                                                    <img src="/images/products/product-2.jpg" alt="product" width="80" height="80">
                                                 </a>
 
-                                                <a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+                                                <a href="product-custom-tab.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
                                             </figure>
                                         </div>
                                         <!-- End .product -->
@@ -240,16 +230,16 @@
                                                 </h4>
 
                                                 <span class="cart-product-info">
-													<span class="cart-product-qty">1</span> × $35.00
+                                                    <span class="cart-product-qty">1</span> × $35.00
                                                 </span>
                                             </div>
                                             <!-- End .product-details -->
 
                                             <figure class="product-image-container">
                                                 <a href="product.html" class="product-image">
-                                                    <img src="/images/product-3.jpg" alt="product" width="80" height="80">
+                                                    <img src="/images/products/product-3.jpg" alt="product" width="80" height="80">
                                                 </a>
-                                                <a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+                                                <a href="product-custom-tab.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
                                             </figure>
                                         </div>
                                         <!-- End .product -->
@@ -265,7 +255,7 @@
 
                                     <div class="dropdown-cart-action">
                                         <a href="cart.html" class="btn btn-gray btn-block view-cart">View
-											Cart</a>
+                                            Cart</a>
                                         <a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
                                     </div>
                                     <!-- End .dropdown-cart-total -->
@@ -294,7 +284,7 @@
                                 <div class="megamenu megamenu-fixed-width megamenu-3cols">
                                     <div class="row">
                                         <div class="col-lg-4">
-                                            <a href="#" class="nolink">VARIATION 1</a>
+                                            <a href="product-custom-tab.html#" class="nolink">VARIATION 1</a>
                                             <ul class="submenu">
                                                 <li><a href="category.html">Fullwidth Banner</a></li>
                                                 <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a>
@@ -311,7 +301,7 @@
                                             </ul>
                                         </div>
                                         <div class="col-lg-4">
-                                            <a href="#" class="nolink">VARIATION 2</a>
+                                            <a href="product-custom-tab.html#" class="nolink">VARIATION 2</a>
                                             <ul class="submenu">
                                                 <li><a href="category-list.html">List Types</a></li>
                                                 <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll</a>
@@ -331,7 +321,7 @@
                                                 </figure>
                                                 <div class="banner-content">
                                                     <h4>
-                                                        <span class="">UP TO</span><br>
+                                                        <span class="">UP TO</span><br />
                                                         <b class="">50%</b>
                                                         <i>OFF</i>
                                                     </h4>
@@ -348,7 +338,7 @@
                                 <div class="megamenu megamenu-fixed-width">
                                     <div class="row">
                                         <div class="col-lg-4">
-                                            <a href="#" class="nolink">PRODUCT PAGES</a>
+                                            <a href="product-custom-tab.html#" class="nolink">PRODUCT PAGES</a>
                                             <ul class="submenu">
                                                 <li><a href="product.html">SIMPLE PRODUCT</a></li>
                                                 <li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
@@ -363,7 +353,7 @@
                                         <!-- End .col-lg-4 -->
 
                                         <div class="col-lg-4">
-                                            <a href="#" class="nolink">PRODUCT LAYOUTS</a>
+                                            <a href="product-custom-tab.html#" class="nolink">PRODUCT LAYOUTS</a>
                                             <ul class="submenu">
                                                 <li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
                                                 <li><a href="product-grid-layout.html">GRID IMAGE</a></li>
@@ -372,7 +362,7 @@
                                                 <li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
                                                 <li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
                                                 <li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
-                                                <li><a href="#">BUILD YOUR OWN</a></li>
+                                                <li><a href="product-custom-tab.html#">BUILD YOUR OWN</a></li>
                                             </ul>
                                         </div>
                                         <!-- End .col-lg-4 -->
@@ -380,12 +370,12 @@
                                         <div class="col-lg-4 p-0">
                                             <div class="menu-banner menu-banner-2">
                                                 <figure>
-                                                    <img src="/images/menu-banner-1.jpg" width="182" height="317" alt="Menu banner" class="product-promo">
+                                                    <img src="/images/menu-banner-1.jpg" alt="Menu banner" class="product-promo">
                                                 </figure>
                                                 <i>OFF</i>
                                                 <div class="banner-content">
                                                     <h4>
-                                                        <span class="">UP TO</span><br>
+                                                        <span class="">UP TO</span><br />
                                                         <b class="">50%</b>
                                                     </h4>
                                                 </div>
@@ -399,14 +389,14 @@
                                 <!-- End .megamenu -->
                             </li>
                             <li>
-                                <a href="#">Pages</a>
+                                <a href="product-custom-tab.html#">Pages</a>
                                 <ul>
                                     <li><a href="wishlist.html">Wishlist</a></li>
                                     <li><a href="cart.html">Shopping Cart</a></li>
                                     <li><a href="checkout.html">Checkout</a></li>
                                     <li><a href="dashboard.html">Dashboard</a></li>
                                     <li><a href="about.html">About Us</a></li>
-                                    <li><a href="#">Blog</a>
+                                    <li><a href="product-custom-tab.html#">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Blog</a></li>
                                             <li><a href="single.html">Blog Post</a></li>
@@ -418,30 +408,10 @@
                                 </ul>
                             </li>
                             <li><a href="blog.html">Blog</a></li>
-                            <li>
-                                <a href="#">Elements</a>
-                                <ul class="custom-scrollbar">
-                                    <li><a href="element-accordions.html">Accordion</a></li>
-                                    <li><a href="element-alerts.html">Alerts</a></li>
-                                    <li><a href="element-animations.html">Animations</a></li>
-                                    <li><a href="element-banners.html">Banners</a></li>
-                                    <li><a href="element-buttons.html">Buttons</a></li>
-                                    <li><a href="element-call-to-action.html">Call to Action</a></li>
-                                    <li><a href="element-countdown.html">Count Down</a></li>
-                                    <li><a href="element-counters.html">Counters</a></li>
-                                    <li><a href="element-headings.html">Headings</a></li>
-                                    <li><a href="element-icons.html">Icons</a></li>
-                                    <li><a href="element-info-box.html">Info box</a></li>
-                                    <li><a href="element-posts.html">Posts</a></li>
-                                    <li><a href="element-products.html">Products</a></li>
-                                    <li><a href="element-product-categories.html">Product Categories</a></li>
-                                    <li><a href="element-tabs.html">Tabs</a></li>
-                                    <li><a href="element-testimonial.html">Testimonials</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="about.html">About Us</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
                             <li class="float-right"><a href="https://1.envato.market/DdLk5" class="pl-5" target="_blank">Buy Porto!</a></li>
-                            <li class="float-right"><a href="#" class="pl-5">Special Offer!</a></li>
+                            <li class="float-right"><a href="product-custom-tab.html#" class="pl-5">Special Offer!</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -456,11 +426,11 @@
                 <nav aria-label="breadcrumb" class="breadcrumb-nav">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="demo4.html"><i class="icon-home"></i></a></li>
-                        <li class="breadcrumb-item"><a href="#">Products</a></li>
+                        <li class="breadcrumb-item"><a href="product-custom-tab.html#">Products</a></li>
                     </ol>
                 </nav>
 
-                <div class="product-single-container product-single-info">
+                <div class="product-single-container product-single-default">
                     <div class="cart-message d-none">
                         <strong class="single-cart-notice">“Men Black Sports Shoes”</strong>
                         <span>has been added to your cart.</span>
@@ -468,240 +438,194 @@
 
                     <div class="row">
                         <div class="col-lg-5 col-md-6 product-single-gallery">
-                            <div class="product-item">
-                                <div class="inner">
-                                    <img src="/images/product-1-big.jpg" data-zoom-image="assets/images/products/zoom/product-1-big.jpg" width="480" height="480" alt="proudct-img">
-                                    <span class="prod-full-screen">
-										<i class="icon-plus"></i>
-									</span>
+                            <div class="product-slider-container">
+                                <div class="label-group">
+                                    <div class="product-label label-hot">HOT</div>
+
+                                    <div class="product-label label-sale">
+                                        -16%
+                                    </div>
                                 </div>
+
+                                <div class="product-single-carousel owl-carousel owl-theme show-nav-hover">
+                                    <div class="product-item">
+                                        <img class="product-single-image" src="/images/products/zoom/product-1-big.jpg" data-zoom-image="/images/products/zoom/product-1-big.jpg" width="468" height="468" alt="product" />
+                                    </div>
+                                    <div class="product-item">
+                                        <img class="product-single-image" src="/images/products/zoom/product-2-big.jpg" data-zoom-image="/images/products/zoom/product-2-big.jpg" width="468" height="468" alt="product" />
+                                    </div>
+                                    <div class="product-item">
+                                        <img class="product-single-image" src="/images/products/zoom/product-3-big.jpg" data-zoom-image="/images/products/zoom/product-3-big.jpg" width="468" height="468" alt="product" />
+                                    </div>
+                                    <div class="product-item">
+                                        <img class="product-single-image" src="/images/products/zoom/product-4-big.jpg" data-zoom-image="/images/products/zoom/product-4-big.jpg" width="468" height="468" alt="product" />
+                                    </div>
+                                    <div class="product-item">
+                                        <img class="product-single-image" src="/images/products/zoom/product-5-big.jpg" data-zoom-image="/images/products/zoom/product-5-big.jpg" width="468" height="468" alt="product" />
+                                    </div>
+                                </div>
+                                <!-- End .product-single-carousel -->
+                                <span class="prod-full-screen">
+                                    <i class="icon-plus"></i>
+                                </span>
                             </div>
-                            <!-- End .product-item -->
 
-                            <div class="product-item">
-                                <div class="inner">
-                                    <img src="/images/product-2-big.jpg" data-zoom-image="assets/images/products/zoom/product-2-big.jpg" width="480" height="480" alt="proudct-img">
-                                    <span class="prod-full-screen">
-										<i class="icon-plus"></i>
-									</span>
+                            <div class="prod-thumbnail owl-dots">
+                                <div class="owl-dot">
+                                    <img src="/images/products/zoom/product-1.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
-                            </div>
-                            <!-- End .product-item -->
-
-                            <div class="product-item">
-                                <div class="inner">
-                                    <img src="/images/product-3-big.jpg" data-zoom-image="assets/images/products/zoom/product-3-big.jpg" width="480" height="480" alt="proudct-img">
-                                    <span class="prod-full-screen">
-										<i class="icon-plus"></i>
-									</span>
+                                <div class="owl-dot">
+                                    <img src="/images/products/zoom/product-2.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
-                            </div>
-                            <!-- End .product-item -->
-                        </div>
-                        <!-- End .col-md-5 -->
-
-                        <div class="col-lg-7 col-md-6">
-                            <div class="sidebar-wrapper">
-                                <div class="product-single-details">
-                                    <h1 class="product-title">Men Black Sports Shoes</h1>
-
-                                    <div class="product-nav">
-                                        <div class="product-prev">
-                                            <a href="#">
-                                                <span class="product-link"></span>
-
-                                                <span class="product-popup">
-													<span class="box-content">
-														<img alt="product" width="150" height="150" src="/images/product-3.jpg" style="padding-top: 0px;">
-
-														<span>Circled Ultimate 3D Speaker</span>
-                                                </span>
-                                                </span>
-                                            </a>
-                                        </div>
-
-                                        <div class="product-next">
-                                            <a href="#">
-                                                <span class="product-link"></span>
-
-                                                <span class="product-popup">
-													<span class="box-content">
-														<img alt="product" width="150" height="150" src="/images/product-4.jpg" style="padding-top: 0px;">
-
-														<span>Blue Backpack for the Young</span>
-                                                </span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="ratings-container">
-                                        <div class="product-ratings">
-                                            <span class="ratings" style="width:60%"></span>
-                                            <!-- End .ratings -->
-                                            <span class="tooltiptext tooltip-top"></span>
-                                        </div>
-                                        <!-- End .product-ratings -->
-
-                                        <a href="#" class="rating-link">( 6 Reviews )</a>
-                                    </div>
-                                    <!-- End .ratings-container -->
-
-                                    <hr class="short-divider">
-
-                                    <div class="price-box">
-                                        <span class="old-price">$1,999.00</span>
-                                        <span class="new-price">$1,699.00</span>
-                                    </div>
-                                    <!-- End .price-box -->
-
-                                    <div class="product-desc">
-                                        <p>
-                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                        </p>
-                                    </div>
-                                    <!-- End .product-desc -->
-
-                                    <ul class="single-info-list">
-                                        <!---->
-                                        <li>
-                                            SKU:
-                                            <strong>PT0003-1</strong>
-                                        </li>
-
-                                        <li>
-                                            CATEGORY:
-                                            <strong>
-												<a href="#" class="product-category">SHOES</a>
-											</strong>
-                                        </li>
-                                    </ul>
-
-                                    <div class="product-filters-container custom-product-filters">
-                                        <div class="product-single-filter">
-                                            <label>Size:</label>
-                                            <ul class="config-size-list">
-                                                <li><a href="javascript:;" class="d-flex align-items-center justify-content-center">L</a>
-                                                </li>
-                                                <li class=""><a href="javascript:;" class="d-flex align-items-center justify-content-center">M</a>
-                                                </li>
-                                                <li class=""><a href="javascript:;" class="d-flex align-items-center justify-content-center">S</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="product-single-filter">
-                                            <label>Color:</label>
-                                            <ul class="config-size-list config-color-list">
-                                                <li>
-                                                    <a href="javascript:;" class="d-flex align-items-center justify-content-center p-0">
-                                                        <img src="/images/product-1_2.jpg" width="30" height="30" alt="filter-img">
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;" class="d-flex align-items-center justify-content-center p-0">
-                                                        <img src="/images/product-2_1.jpg" width="30" height="30" alt="filter-img">
-                                                    </a>
-                                                </li>
-                                                <li class="">
-                                                    <a href="javascript:;" class="d-flex align-items-center justify-content-center p-0">
-                                                        <img src="/images/product-3_1.jpg" width="30" height="30" alt="filter-img">
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="product-single-filter">
-                                            <label></label>
-                                            <a class="font1 text-uppercase clear-btn" href="#">Clear</a>
-                                        </div>
-                                        <!---->
-                                    </div>
-
-                                    <div class="product-action">
-                                        <div class="price-box product-filtered-price">
-                                            <del class="old-price"> <span>$286.00</span></del>
-                                            <span class="product-price">$245.00</span>
-                                        </div>
-
-                                        <div class="product-single-qty">
-                                            <input class="horizontal-quantity form-control" type="text">
-                                        </div>
-                                        <!-- End .product-single-qty -->
-
-                                        <a href="cart.html" class="btn btn-dark disabled add-cart icon-shopping-cart mr-2" title="Add to Cart">Add to Cart</a>
-
-                                        <a href="cart.html" class="btn btn-gray view-cart d-none">View cart</a>
-                                    </div>
-                                    <!-- End .product-action -->
-
-                                    <hr class="divider mb-0 mt-0">
-
-                                    <a href="wishlist.html" class="btn-icon-wish add-wishlist justify-content-start" title="Add to Wishlist"><i class="icon-wishlist-2"></i><span>Add to
-											Wishlist</span></a>
+                                <div class="owl-dot">
+                                    <img src="/images/products/zoom/product-3.jpg" width="110" height="110" alt="product-thumbnail" />
                                 </div>
-                                <!-- End .product-single-details -->
+                                <div class="owl-dot">
+                                    <img src="/images/products/zoom/product-4.jpg" width="110" height="110" alt="product-thumbnail" />
+                                </div>
+                                <div class="owl-dot">
+                                    <img src="/images/products/zoom/product-5.jpg" width="110" height="110" alt="product-thumbnail" />
+                                </div>
                             </div>
                         </div>
-                        <!-- End .col-md-7 -->
-                    </div>
+                        <!-- End .product-single-gallery -->
 
-                    <div class="row align-items-start">
-                        <div class="widget widget-info col-md-9 col-xl-6 pb-4 pb-md-0">
-                            <ul class="promote">
+                        <div class="col-lg-7 col-md-6 product-single-details">
+                            <h1 class="product-title">Men Black Sports Shoes</h1>
+
+                            <div class="product-nav">
+                                <div class="product-prev">
+                                    <a href="product-custom-tab.html#">
+                                        <span class="product-link"></span>
+
+                                        <span class="product-popup">
+                                            <span class="box-content">
+                                                <img alt="product" width="150" height="150"
+                                                    src="/images/products/product-3.jpg"
+                                                    style="padding-top: 0px;">
+
+                                                <span>Circled Ultimate 3D Speaker</span>
+                                        </span>
+                                        </span>
+                                    </a>
+                                </div>
+
+                                <div class="product-next">
+                                    <a href="product-custom-tab.html#">
+                                        <span class="product-link"></span>
+
+                                        <span class="product-popup">
+                                            <span class="box-content">
+                                                <img alt="product" width="150" height="150"
+                                                    src="/images/products/product-4.jpg"
+                                                    style="padding-top: 0px;">
+
+                                                <span>Blue Backpack for the Young</span>
+                                        </span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="ratings-container">
+                                <div class="product-ratings">
+                                    <span class="ratings" style="width:60%"></span>
+                                    <!-- End .ratings -->
+                                    <span class="tooltiptext tooltip-top"></span>
+                                </div>
+                                <!-- End .product-ratings -->
+
+                                <a href="product-custom-tab.html#" class="rating-link">( 6 Reviews )</a>
+                            </div>
+                            <!-- End .ratings-container -->
+
+                            <hr class="short-divider">
+
+                            <div class="price-box">
+                                <span class="old-price">$1,999.00</span>
+                                <span class="new-price">$1,699.00</span>
+                            </div>
+                            <!-- End .price-box -->
+
+                            <div class="product-desc">
+                                <p>
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+                                    placerat eleifend leo.
+                                </p>
+                            </div>
+                            <!-- End .product-desc -->
+
+                            <ul class="single-info-list">
+
                                 <li>
-                                    <i class="icon-shipped"></i>
-                                    <h4>FREE<br>SHIPPING</h4>
+                                    SKU: <strong>654613612</strong>
                                 </li>
+
                                 <li>
-                                    <i class="icon-us-dollar"></i>
-                                    <h4>100% MONEY<br>BACK GUARANTEE</h4>
+                                    CATEGORY: <strong><a href="product-custom-tab.html#" class="product-category">SHOES</a></strong>
                                 </li>
+
                                 <li>
-                                    <i class="icon-online-support"></i>
-                                    <h4>ONLINE<br>SUPPORT 24/7</h4>
+                                    TAGs: <strong><a href="product-custom-tab.html#" class="product-category">CLOTHES</a></strong>,
+                                    <strong><a href="product-custom-tab.html#" class="product-category">SWEATER</a></strong>
                                 </li>
                             </ul>
-                        </div>
-                        <!-- End .widget -->
 
-                        <div class="product-single-share col-md-3 col-xl-6 align-items-start justify-content-md-end mt-0">
-                            <label class="sr-only">Share:</label>
+                            <div class="product-action">
+                                <div class="product-single-qty">
+                                    <input class="horizontal-quantity form-control" type="text">
+                                </div>
+                                <!-- End .product-single-qty -->
 
-                            <div class="social-icons mt-0 pb-5 pb-md-0">
-                                <a href="#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
-                                <a href="#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
-                                <a href="#" class="social-icon social-linkedin fab fa-linkedin-in" target="_blank" title="Linkedin"></a>
-                                <a href="#" class="social-icon social-gplus fab fa-google-plus-g" target="_blank" title="Google +"></a>
-                                <a href="#" class="social-icon social-mail icon-mail-alt" target="_blank" title="Mail"></a>
+                                <a href="javascript:;" class="btn btn-dark add-cart mr-2" title="Add to Cart">Add to
+                                    Cart</a>
+
+                                <a href="cart.html" class="btn btn-gray view-cart d-none">View cart</a>
                             </div>
-                            <!-- End .social-icons -->
+                            <!-- End .product-action -->
+
+                            <hr class="divider mb-0 mt-0">
+
+                            <div class="product-single-share mb-3">
+                                <label class="sr-only">Share:</label>
+
+                                <div class="social-icons mr-2">
+                                    <a href="product-custom-tab.html#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-linkedin fab fa-linkedin-in" target="_blank" title="Linkedin"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-gplus fab fa-google-plus-g" target="_blank" title="Google +"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-mail icon-mail-alt" target="_blank" title="Mail"></a>
+                                </div>
+                                <!-- End .social-icons -->
+
+                                <a href="wishlist.html" class="btn-icon-wish add-wishlist" title="Add to Wishlist"><i
+                                        class="icon-wishlist-2"></i><span>Add to
+                                        Wishlist</span></a>
+                            </div>
+                            <!-- End .product single-share -->
                         </div>
-                        <!-- End .product-single-share -->
+                        <!-- End .product-single-details -->
                     </div>
                     <!-- End .row -->
                 </div>
                 <!-- End .product-single-container -->
-            </div>
-            <!-- End .products-section -->
 
-            <div class="product-single-tabs custom-product-single-tabs bg-gray mb-4">
-                <div class="container">
+                <div class="product-single-tabs">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="product-tab-desc" data-toggle="tab" href="#product-desc-content" role="tab" aria-controls="product-desc-content" aria-selected="true">Description</a>
+                            <a class="nav-link active" id="product-tab-desc" data-toggle="tab" href="product-custom-tab.html#product-desc-content" role="tab" aria-controls="product-desc-content" aria-selected="true">Description</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="product-tab-size" data-toggle="tab" href="#product-size-content" role="tab" aria-controls="product-size-content" aria-selected="true">Size Guide</a>
+                            <a class="nav-link" id="product-tab-size" data-toggle="tab" href="product-custom-tab.html#product-size-content" role="tab" aria-controls="product-size-content" aria-selected="true">Size Guide</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="product-tab-reviews" data-toggle="tab" href="#product-reviews-content" role="tab" aria-controls="product-reviews-content" aria-selected="false">Reviews (1)</a>
+                            <a class="nav-link" id="product-tab-reviews" data-toggle="tab" href="product-custom-tab.html#product-reviews-content" role="tab" aria-controls="product-reviews-content" aria-selected="false">Reviews (1)</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="product-tab-tags" data-toggle="tab" href="#product-tags-content" role="tab" aria-controls="product-tags-content" aria-selected="false">Custom Tab</a>
+                            <a class="nav-link" id="product-tab-custom" data-toggle="tab" href="product-custom-tab.html#product-custom-content" role="tab" aria-controls="product-custom-content" aria-selected="false">Custom Tab</a>
                         </li>
                     </ul>
 
@@ -728,7 +652,7 @@
                             <div class="product-size-content">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <img src="/images/body-shape.png" alt="body shape" width="217" height="398">
+                                        <img src="/images/products/single/body-shape.png" alt="body shape" width="217" height="398">
                                     </div>
                                     <!-- End .col-md-4 -->
 
@@ -737,9 +661,9 @@
                                             <thead>
                                                 <tr>
                                                     <th>SIZE</th>
-                                                    <th>CHEST (in.)</th>
-                                                    <th>WAIST (in.)</th>
-                                                    <th>HIPS (in.)</th>
+                                                    <th>CHEST(in.)</th>
+                                                    <th>WAIST(in.)</th>
+                                                    <th>HIPS(in.)</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -774,7 +698,7 @@
                                                     <td>43.5-47.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>XLL</td>
+                                                    <td>XXL</td>
                                                     <td>45-48</td>
                                                     <td>40-44</td>
                                                     <td>47.5-51.5</td>
@@ -796,7 +720,7 @@
                                 <div class="comment-list">
                                     <div class="comments">
                                         <figure class="img-thumbnail">
-                                            <img src="/images/author.jpg" alt="author" width="80" height="80">
+                                            <img src="/images/blog/author.jpg" alt="author" width="80" height="80">
                                         </figure>
 
                                         <div class="comment-block">
@@ -813,8 +737,8 @@
                                                 </div>
 
                                                 <span class="comment-by">
-													<strong>Joe Doe</strong> – April 12, 2018
-												</span>
+                                                    <strong>Joe Doe</strong> – April 12, 2018
+                                                </span>
                                             </div>
 
                                             <div class="comment-content">
@@ -829,25 +753,25 @@
                                 <div class="add-product-review">
                                     <h3 class="review-title">Add a review</h3>
 
-                                    <form action="#" class="comment-form m-0">
+                                    <form action="product-custom-tab.html#" class="comment-form m-0">
                                         <div class="rating-form">
                                             <label for="rating">Your rating <span class="required">*</span></label>
                                             <span class="rating-stars">
-												<a class="star-1" href="#">1</a>
-												<a class="star-2" href="#">2</a>
-												<a class="star-3" href="#">3</a>
-												<a class="star-4" href="#">4</a>
-												<a class="star-5" href="#">5</a>
-											</span>
+                                                <a class="star-1" href="product-custom-tab.html#">1</a>
+                                                <a class="star-2" href="product-custom-tab.html#">2</a>
+                                                <a class="star-3" href="product-custom-tab.html#">3</a>
+                                                <a class="star-4" href="product-custom-tab.html#">4</a>
+                                                <a class="star-5" href="product-custom-tab.html#">5</a>
+                                            </span>
 
                                             <select name="rating" id="rating" required="" style="display: none;">
-												<option value="">Rate…</option>
-												<option value="5">Perfect</option>
-												<option value="4">Good</option>
-												<option value="3">Average</option>
-												<option value="2">Not that bad</option>
-												<option value="1">Very poor</option>
-											</select>
+                                                <option value="">Rate…</option>
+                                                <option value="5">Perfect</option>
+                                                <option value="4">Good</option>
+                                                <option value="3">Average</option>
+                                                <option value="2">Not that bad</option>
+                                                <option value="1">Very poor</option>
+                                            </select>
                                         </div>
 
                                         <div class="form-group">
@@ -861,7 +785,7 @@
                                             <div class="col-md-6 col-xl-12">
                                                 <div class="form-group">
                                                     <label>Name <span class="required">*</span></label>
-                                                    <input type="text" class="form-control form-control-sm" required="">
+                                                    <input type="text" class="form-control form-control-sm" required>
                                                 </div>
                                                 <!-- End .form-group -->
                                             </div>
@@ -869,17 +793,17 @@
                                             <div class="col-md-6 col-xl-12">
                                                 <div class="form-group">
                                                     <label>Email <span class="required">*</span></label>
-                                                    <input type="text" class="form-control form-control-sm" required="">
+                                                    <input type="text" class="form-control form-control-sm" required>
                                                 </div>
                                                 <!-- End .form-group -->
                                             </div>
 
                                             <div class="col-md-12">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="save-name">
+                                                <div class=" custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="save-name" />
                                                     <label class="custom-control-label mb-0" for="save-name">Save my
-														name, email, and website in this browser for the next time I
-														comment.</label>
+                                                        name, email, and website in this browser for the next time I
+                                                        comment.</label>
                                                 </div>
                                             </div>
                                         </div>
@@ -893,17 +817,15 @@
                         </div>
                         <!-- End .tab-pane -->
 
-                        <div class="tab-pane fade" id="product-tags-content" role="tabpanel" aria-labelledby="product-tab-tags">
-                            Custom Tab Content
+                        <div class="tab-pane fade" id="product-custom-content" role="tabpanel" aria-labelledby="product-tab-custom">
+                            <div class="mb-2 pb-2">Custom Tab Content</div>
                         </div>
                         <!-- End .tab-pane -->
                     </div>
                     <!-- End .tab-content -->
                 </div>
-            </div>
-            <!-- End .product-single-tabs -->
+                <!-- End .product-single-tabs -->
 
-            <div class="container">
                 <div class="products-section pt-0">
                     <h2 class="section-title">Related Products</h2>
 
@@ -911,8 +833,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-1.jpg" width="280" height="280" alt="product">
-                                    <img src="/images/product-1-2.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-1.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-1-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -941,10 +863,13 @@
                                 </div>
                                 <!-- End .price-box -->
                                 <div class="product-action">
-                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                                    <a href="product.html" class="btn-icon btn-add-cart"><i class="fa fa-arrow-right"></i><span>SELECT
-											OPTIONS</span></a>
-                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                            class="icon-heart"></i></a>
+                                    <a href="product.html" class="btn-icon btn-add-cart"><i
+                                            class="fa fa-arrow-right"></i><span>SELECT
+                                            OPTIONS</span></a>
+                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                                            class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -953,8 +878,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-3.jpg" width="280" height="280" alt="product">
-                                    <img src="/images/product-3-2.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-3.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-3-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -983,10 +908,13 @@
                                 </div>
                                 <!-- End .price-box -->
                                 <div class="product-action">
-                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                                    <a href="product.html" class="btn-icon btn-add-cart"><i class="fa fa-arrow-right"></i><span>SELECT
-											OPTIONS</span></a>
-                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                            class="icon-heart"></i></a>
+                                    <a href="product.html" class="btn-icon btn-add-cart"><i
+                                            class="fa fa-arrow-right"></i><span>SELECT
+                                            OPTIONS</span></a>
+                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                                            class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -995,8 +923,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-7_1.jpg" width="280" height="280" alt="product">
-                                    <img src="/images/product-7-2.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-7.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-7-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -1025,10 +953,13 @@
                                 </div>
                                 <!-- End .price-box -->
                                 <div class="product-action">
-                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                                    <a href="product.html" class="btn-icon btn-add-cart"><i class="fa fa-arrow-right"></i><span>SELECT
-											OPTIONS</span></a>
-                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                            class="icon-heart"></i></a>
+                                    <a href="product.html" class="btn-icon btn-add-cart"><i
+                                            class="fa fa-arrow-right"></i><span>SELECT
+                                            OPTIONS</span></a>
+                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                                            class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -1037,8 +968,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-6.jpg" width="280" height="280" alt="product">
-                                    <img src="/images/product-6-2.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-6.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-6-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -1067,10 +998,13 @@
                                 </div>
                                 <!-- End .price-box -->
                                 <div class="product-action">
-                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                                    <a href="product.html" class="btn-icon btn-add-cart"><i class="fa fa-arrow-right"></i><span>SELECT
-											OPTIONS</span></a>
-                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                            class="icon-heart"></i></a>
+                                    <a href="product.html" class="btn-icon btn-add-cart"><i
+                                            class="fa fa-arrow-right"></i><span>SELECT
+                                            OPTIONS</span></a>
+                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                                            class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -1079,8 +1013,8 @@
                         <div class="product-default">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-4.jpg" width="280" height="280" alt="product">
-                                    <img src="/images/product-4-2.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-4.jpg" width="280" height="280" alt="product">
+                                    <img src="/images/products/product-4-2.jpg" width="280" height="280" alt="product">
                                 </a>
                                 <div class="label-group">
                                     <div class="product-label label-hot">HOT</div>
@@ -1109,10 +1043,13 @@
                                 </div>
                                 <!-- End .price-box -->
                                 <div class="product-action">
-                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i class="icon-heart"></i></a>
-                                    <a href="product.html" class="btn-icon btn-add-cart"><i class="fa fa-arrow-right"></i><span>SELECT
-											OPTIONS</span></a>
-                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="wishlist.html" title="Wishlist" class="btn-icon-wish"><i
+                                            class="icon-heart"></i></a>
+                                    <a href="product.html" class="btn-icon btn-add-cart"><i
+                                            class="fa fa-arrow-right"></i><span>SELECT
+                                            OPTIONS</span></a>
+                                    <a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View"><i
+                                            class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                             <!-- End .product-details -->
@@ -1122,7 +1059,7 @@
                 </div>
                 <!-- End .products-section -->
 
-                <hr class="mt-0 m-b-5">
+                <hr class="mt-0 m-b-5" />
 
                 <div class="product-widgets-container row pb-2">
                     <div class="col-lg-3 col-sm-6 pb-5 pb-md-0">
@@ -1130,8 +1067,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-1_1.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-1-2_1.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-1.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-1-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1160,8 +1097,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-2_2.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-2-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-2-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1189,8 +1126,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-3_2.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-3-2_1.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-3.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-3-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1221,8 +1158,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-4_1.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-4-2_1.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-4.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-4-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1251,8 +1188,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-5.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-5-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-5.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-5-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1280,8 +1217,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-6_1.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-6-2_1.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-6.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-6-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1312,8 +1249,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-7.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-7-2_1.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-7.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-7-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1341,8 +1278,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-8.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-8-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-8.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-8-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1371,8 +1308,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-9.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-9-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-9.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-9-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1403,8 +1340,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-10.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-10-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-10.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-10-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1432,8 +1369,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-11.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-11-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-11.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-11-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1461,8 +1398,8 @@
                         <div class="product-default left-details product-widget">
                             <figure>
                                 <a href="product.html">
-                                    <img src="/images/product-12.jpg" width="74" height="74" alt="product">
-                                    <img src="/images/product-12-2.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-12.jpg" width="74" height="74" alt="product">
+                                    <img src="/images/products/small/product-12-2.jpg" width="74" height="74" alt="product">
                                 </a>
                             </figure>
 
@@ -1490,6 +1427,7 @@
                 </div>
                 <!-- End .row -->
             </div>
+            <!-- End .container -->
         </main>
         <!-- End .main -->
 
@@ -1506,19 +1444,19 @@
                                     </li>
                                     <li>
                                         <span class="contact-info-label">Phone:</span><a href="tel:">(123)
-											456-7890</a>
+                                            456-7890</a>
                                     </li>
                                     <li>
-                                        <span class="contact-info-label">Email:</span> <a href="/cdn-cgi/l/email-protection#315c50585d715449505c415d541f525e5c"><span class="__cf_email__" data-cfemail="107d71797c507568717d607c753e737f7d">[email protected]</span></a>
+                                        <span class="contact-info-label">Email:</span> <a href="https://portotheme.com/cdn-cgi/l/email-protection#b3ded2dadff3d6cbd2dec3dfd69dd0dcde"><span class="__cf_email__" data-cfemail="0a676b63664a6f726b677a666f24696567">[email&#160;protected]</span></a>
                                     </li>
                                     <li>
                                         <span class="contact-info-label">Working Days/Hours:</span> Mon - Sun / 9:00 AM - 8:00 PM
                                     </li>
                                 </ul>
                                 <div class="social-icons">
-                                    <a href="#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
-                                    <a href="#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
-                                    <a href="#" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+                                    <a href="product-custom-tab.html#" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
                                 </div>
                                 <!-- End .social-icons -->
                             </div>
@@ -1531,16 +1469,16 @@
                                 <h4 class="widget-title">Customer Service</h4>
 
                                 <ul class="links">
-                                    <li><a href="#">Help & FAQs</a></li>
-                                    <li><a href="#">Order Tracking</a></li>
-                                    <li><a href="#">Shipping & Delivery</a></li>
-                                    <li><a href="#">Orders History</a></li>
-                                    <li><a href="#">Advanced Search</a></li>
+                                    <li><a href="product-custom-tab.html#">Help & FAQs</a></li>
+                                    <li><a href="product-custom-tab.html#">Order Tracking</a></li>
+                                    <li><a href="product-custom-tab.html#">Shipping & Delivery</a></li>
+                                    <li><a href="product-custom-tab.html#">Orders History</a></li>
+                                    <li><a href="product-custom-tab.html#">Advanced Search</a></li>
                                     <li><a href="dashboard.html">My Account</a></li>
-                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="product-custom-tab.html#">Careers</a></li>
                                     <li><a href="about.html">About Us</a></li>
-                                    <li><a href="#">Corporate Sales</a></li>
-                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="product-custom-tab.html#">Corporate Sales</a></li>
+                                    <li><a href="product-custom-tab.html#">Privacy</a></li>
                                 </ul>
                             </div>
                             <!-- End .widget -->
@@ -1552,17 +1490,17 @@
                                 <h4 class="widget-title">Popular Tags</h4>
 
                                 <div class="tagcloud">
-                                    <a href="#">Bag</a>
-                                    <a href="#">Black</a>
-                                    <a href="#">Blue</a>
-                                    <a href="#">Clothes</a>
-                                    <a href="#">Fashion</a>
-                                    <a href="#">Hub</a>
-                                    <a href="#">Shirt</a>
-                                    <a href="#">Shoes</a>
-                                    <a href="#">Skirt</a>
-                                    <a href="#">Sports</a>
-                                    <a href="#">Sweater</a>
+                                    <a href="product-custom-tab.html#">Bag</a>
+                                    <a href="product-custom-tab.html#">Black</a>
+                                    <a href="product-custom-tab.html#">Blue</a>
+                                    <a href="product-custom-tab.html#">Clothes</a>
+                                    <a href="product-custom-tab.html#">Fashion</a>
+                                    <a href="product-custom-tab.html#">Hub</a>
+                                    <a href="product-custom-tab.html#">Shirt</a>
+                                    <a href="product-custom-tab.html#">Shoes</a>
+                                    <a href="product-custom-tab.html#">Skirt</a>
+                                    <a href="product-custom-tab.html#">Sports</a>
+                                    <a href="product-custom-tab.html#">Sweater</a>
                                 </div>
                             </div>
                             <!-- End .widget -->
@@ -1574,8 +1512,8 @@
                                 <h4 class="widget-title">Subscribe newsletter</h4>
                                 <p>Get all the latest information on events, sales and offers. Sign up for newsletter:
                                 </p>
-                                <form action="#" class="mb-0">
-                                    <input type="email" class="form-control m-b-3" placeholder="Email address" required="">
+                                <form action="product-custom-tab.html#" class="mb-0">
+                                    <input type="email" class="form-control m-b-3" placeholder="Email address" required>
 
                                     <input type="submit" class="btn btn-primary shadow-none" value="Subscribe">
                                 </form>
@@ -1599,10 +1537,10 @@
 
                         <div class="footer-right ml-auto mt-1 mt-sm-0">
                             <div class="payment-icons">
-                                <span class="payment-icon visa" style="background-image: url(images/payment-visa.svg)"></span>
-                                <span class="payment-icon paypal" style="background-image: url(images/payment-paypal.svg)"></span>
-                                <span class="payment-icon stripe" style="background-image: url(images/payment-stripe.png)"></span>
-                                <span class="payment-icon verisign" style="background-image:  url(images/payment-verisign.svg)"></span>
+                                <span class="payment-icon visa" style="background-image: url(/images/payments/payment-visa.svg)"></span>
+                                <span class="payment-icon paypal" style="background-image: url(/images/payments/payment-paypal.svg)"></span>
+                                <span class="payment-icon stripe" style="background-image: url(/images/payments/payment-stripe.png)"></span>
+                                <span class="payment-icon verisign" style="background-image:  url(/images/payments/payment-verisign.svg)"></span>
                             </div>
                         </div>
                     </div>
@@ -1638,13 +1576,14 @@
                             <li><a href="category.html">Full Width Banner</a></li>
                             <li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
                             <li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
-                            <li><a href="category-sidebar-left.html">Left Sidebar</a></li>
+                            <li><a href="https://portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left Sidebar</a></li>
                             <li><a href="category-sidebar-right.html">Right Sidebar</a></li>
                             <li><a href="category-off-canvas.html">Off Canvas Filter</a></li>
                             <li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
                             <li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
-                            <li><a href="#">List Types</a></li>
-                            <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span class="tip tip-new">New</span></a></li>
+                            <li><a href="product-custom-tab.html#">List Types</a></li>
+                            <li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span
+                                        class="tip tip-new">New</span></a></li>
                             <li><a href="category.html">3 Columns Products</a></li>
                             <li><a href="category-4col.html">4 Columns Products</a></li>
                             <li><a href="category-5col.html">5 Columns Products</a></li>
@@ -1657,7 +1596,7 @@
                         <a href="product.html">Products</a>
                         <ul>
                             <li>
-                                <a href="#" class="nolink">PRODUCT PAGES</a>
+                                <a href="product-custom-tab.html#" class="nolink">PRODUCT PAGES</a>
                                 <ul>
                                     <li><a href="product.html">SIMPLE PRODUCT</a></li>
                                     <li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
@@ -1670,7 +1609,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#" class="nolink">PRODUCT LAYOUTS</a>
+                                <a href="product-custom-tab.html#" class="nolink">PRODUCT LAYOUTS</a>
                                 <ul>
                                     <li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
                                     <li><a href="product-grid-layout.html">GRID IMAGE</a></li>
@@ -1679,13 +1618,13 @@
                                     <li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
                                     <li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
                                     <li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
-                                    <li><a href="#">BUILD YOUR OWN</a></li>
+                                    <li><a href="product-custom-tab.html#">BUILD YOUR OWN</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Pages<span class="tip tip-hot">Hot!</span></a>
+                        <a href="product-custom-tab.html#">Pages<span class="tip tip-hot">Hot!</span></a>
                         <ul>
                             <li>
                                 <a href="wishlist.html">Wishlist</a>
@@ -1708,7 +1647,8 @@
                         </ul>
                     </li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="#">Elements</a>
+                    <li>
+                        <a href="product-custom-tab.html#">Elements</a>
                         <ul class="custom-scrollbar">
                             <li><a href="element-accordions.html">Accordion</a></li>
                             <li><a href="element-alerts.html">Alerts</a></li>
@@ -1732,15 +1672,15 @@
 
                 <ul class="mobile-menu mt-2 mb-2">
                     <li class="border-0">
-                        <a href="#">
-							Special Offer!
-						</a>
+                        <a href="product-custom-tab.html#">
+                            Special Offer!
+                        </a>
                     </li>
                     <li class="border-0">
-                        <a href="#" target="_blank">
-							Buy Porto!
-							<span class="tip tip-hot">Hot</span>
-						</a>
+                        <a href="https://1.envato.market/DdLk5" target="_blank">
+                            Buy Porto!
+                            <span class="tip tip-hot">Hot</span>
+                        </a>
                     </li>
                 </ul>
 
@@ -1755,17 +1695,17 @@
             </nav>
             <!-- End .mobile-nav -->
 
-            <form class="search-wrapper mb-2" action="#">
-                <input type="text" class="form-control mb-0" placeholder="Search..." required="">
+            <form class="search-wrapper mb-2" action="product-custom-tab.html#">
+                <input type="text" class="form-control mb-0" placeholder="Search..." required />
                 <button class="btn icon-search text-white bg-transparent p-0" type="submit"></button>
             </form>
 
             <div class="social-icons">
-                <a href="#" class="social-icon social-facebook icon-facebook" target="_blank">
+                <a href="product-custom-tab.html#" class="social-icon social-facebook icon-facebook" target="_blank">
                 </a>
-                <a href="#" class="social-icon social-twitter icon-twitter" target="_blank">
+                <a href="product-custom-tab.html#" class="social-icon social-twitter icon-twitter" target="_blank">
                 </a>
-                <a href="#" class="social-icon social-instagram icon-instagram" target="_blank">
+                <a href="product-custom-tab.html#" class="social-icon social-instagram icon-instagram" target="_blank">
                 </a>
             </div>
         </div>
@@ -1790,30 +1730,30 @@
             </a>
         </div>
         <div class="sticky-info">
-            <a href="login.html" class="">
+            <a href="https://portotheme.com/html/porto_ecommerce/my-account.html" class="">
                 <i class="icon-user-2"></i>Account
             </a>
         </div>
         <div class="sticky-info">
             <a href="cart.html" class="">
                 <i class="icon-shopping-cart position-relative">
-					<span class="cart-count badge-circle">3</span>
-				</i>Cart
+                    <span class="cart-count badge-circle">3</span>
+                </i>Cart
             </a>
         </div>
     </div>
 
 
 
-    <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+    <a id="scroll-top" href="product-custom-tab.html#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
     <!-- Plugins JS File -->
-    <script type="module" data-cfasync="false" src="/js/email-decode.min.js"></script><script type="module" src="/js/jquery.min.js"></script>
+    <script type="module" data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="/js/jquery.min.js"></script>
     <script type="module" src="/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/js/plugins.min.js"></script>
 
     <!-- Main JS File -->
     <script type="module" src="/js/main.min.js"></script>
-<script type="module">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f38b6c6e919210f',t:'MTc3NzQwNzA2NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+<script type="module">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f3f2f60abc0ade5',t:'MTc3NzQ3NDkxOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 
-</body></html>
+</html>

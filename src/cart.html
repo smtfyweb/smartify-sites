@@ -1,36 +1,39 @@
-<!DOCTYPE html><html lang="pt-br"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>Porto - Bootstrap eCommerce Template</title>
 
-	<meta name="keywords" content="HTML5 Template">
+	<meta name="keywords" content="HTML5 Template" />
 	<meta name="description" content="Porto - Bootstrap eCommerce Template">
 	<meta name="author" content="SW-THEMES">
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/images/icons/favicon.png">
 
 
-	<script type="module" src="/js/webfont.js" async=""></script><script type="module">
+	<script type="module">
 		WebFontConfig = {
 			google: { families: [ 'Open+Sans:300,400,600,700,800', 'Poppins:300,400,500,600,700', 'Shadows+Into+Light:400' ] }
 		};
 		( function ( d ) {
 			var wf = d.createElement( 'script' ), s = d.scripts[ 0 ];
-			wf.src = 'assets/js/webfont.js';
+			wf.src = '/js/webfont.js';
 			wf.async = true;
 			s.parentNode.insertBefore( wf, s );
 		} )( document );
 	</script>
 
 	<!-- Plugins CSS File -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
 
 	<!-- Main CSS File -->
-	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" href="/css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
@@ -54,7 +57,7 @@
 
 					<div class="header-right header-dropdowns ml-0 ml-sm-auto w-sm-100">
 						<div class="header-dropdown dropdown-expanded d-none d-lg-block">
-							<a href="#">Links</a>
+							<a href="cart.html#">Links</a>
 							<div class="header-menu">
 								<ul>
 									<li><a href="dashboard.html">My Account</a></li>
@@ -70,22 +73,22 @@
 						<span class="separator"></span>
 
 						<div class="header-dropdown">
-							<a href="#"><i class="flag-us flag"></i>ENG</a>
+							<a href="cart.html#"><i class="flag-us flag"></i>ENG</a>
 							<div class="header-menu">
 								<ul>
-									<li><a href="#"><i class="flag-us flag mr-2"></i>ENG</a>
+									<li><a href="cart.html#"><i class="flag-us flag mr-2"></i>ENG</a>
 									</li>
-									<li><a href="#"><i class="flag-fr flag mr-2"></i>FRA</a></li>
+									<li><a href="cart.html#"><i class="flag-fr flag mr-2"></i>FRA</a></li>
 								</ul>
 							</div><!-- End .header-menu -->
 						</div><!-- End .header-dropown -->
 
 						<div class="header-dropdown mr-auto mr-sm-3 mr-md-0">
-							<a href="#">USD</a>
+							<a href="cart.html#">USD</a>
 							<div class="header-menu">
 								<ul>
-									<li><a href="#">EUR</a></li>
-									<li><a href="#">USD</a></li>
+									<li><a href="cart.html#">EUR</a></li>
+									<li><a href="cart.html#">USD</a></li>
 								</ul>
 							</div><!-- End .header-menu -->
 						</div><!-- End .header-dropown -->
@@ -93,9 +96,9 @@
 						<span class="separator"></span>
 
 						<div class="social-icons">
-							<a href="#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
-							<a href="#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
-							<a href="#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
+							<a href="cart.html#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
+							<a href="cart.html#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
+							<a href="cart.html#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
 						</div><!-- End .social-icons -->
 					</div><!-- End .header-right -->
 				</div><!-- End .container -->
@@ -113,11 +116,13 @@
 					</div><!-- End .header-left -->
 
 					<div class="header-right w-lg-max">
-						<div class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
-							<a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
-							<form action="#" method="get">
+						<div
+							class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
+							<a href="cart.html#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+							<form action="cart.html#" method="get">
 								<div class="header-search-wrapper">
-									<input type="search" class="form-control" name="q" id="q" placeholder="Search..." required="">
+									<input type="search" class="form-control" name="q" id="q" placeholder="Search..."
+										required>
 									<div class="select-custom">
 										<select id="cat" name="cat">
 											<option value="">All Categories</option>
@@ -130,13 +135,13 @@
 											<option value="21">- Smart TVs</option>
 											<option value="22">- Cameras</option>
 											<option value="63">- Games</option>
-											<option value="7">Home & Garden</option>
+											<option value="7">Home &amp; Garden</option>
 											<option value="11">Motors</option>
 											<option value="31">- Cars and Trucks</option>
-											<option value="32">- Motorcycles & Powersports</option>
-											<option value="33">- Parts & Accessories</option>
+											<option value="32">- Motorcycles &amp; Powersports</option>
+											<option value="33">- Parts &amp; Accessories</option>
 											<option value="34">- Boats</option>
-											<option value="57">- Auto Tools & Supplies</option>
+											<option value="57">- Auto Tools &amp; Supplies</option>
 										</select>
 									</div><!-- End .select-custom -->
 									<button class="btn icon-magnifier p-0" type="submit"></button>
@@ -154,7 +159,8 @@
 						<a href="wishlist.html" class="header-icon" title="wishlist"><i class="icon-wishlist-2"></i></a>
 
 						<div class="dropdown cart-dropdown">
-							<a href="#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+							<a href="cart.html#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
 								<i class="minicart-icon"></i>
 								<span class="cart-count badge-circle">3</span>
 							</a>
@@ -163,7 +169,7 @@
 							<div class="cart-overlay"></div>
 
 							<div class="dropdown-menu mobile-cart">
-								<a href="#" title="Close (Esc)" class="btn-close">×</a>
+								<a href="cart.html#" title="Close (Esc)" class="btn-close">×</a>
 
 								<div class="dropdownmenu-wrapper custom-scrollbar">
 									<div class="dropdown-cart-header">Shopping Cart</div>
@@ -184,10 +190,11 @@
 
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="/images/product-1.jpg" alt="product" width="80" height="80">
+													<img src="/images/products/product-1.jpg" alt="product"
+														width="80" height="80">
 												</a>
 
-												<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+												<a href="cart.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
 											</figure>
 										</div><!-- End .product -->
 
@@ -205,10 +212,11 @@
 
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="/images/product-2.jpg" alt="product" width="80" height="80">
+													<img src="/images/products/product-2.jpg" alt="product"
+														width="80" height="80">
 												</a>
 
-												<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+												<a href="cart.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
 											</figure>
 										</div><!-- End .product -->
 
@@ -226,9 +234,10 @@
 
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="/images/product-3.jpg" alt="product" width="80" height="80">
+													<img src="/images/products/product-3.jpg" alt="product"
+														width="80" height="80">
 												</a>
-												<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+												<a href="cart.html#" class="btn-remove" title="Remove Product"><span>×</span></a>
 											</figure>
 										</div><!-- End .product -->
 									</div><!-- End .cart-product -->
@@ -263,7 +272,7 @@
 								<div class="megamenu megamenu-fixed-width megamenu-3cols">
 									<div class="row">
 										<div class="col-lg-4">
-											<a href="#" class="nolink">VARIATION 1</a>
+											<a href="cart.html#" class="nolink">VARIATION 1</a>
 											<ul class="submenu">
 												<li><a href="category.html">Fullwidth Banner</a></li>
 												<li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a>
@@ -280,7 +289,7 @@
 											</ul>
 										</div>
 										<div class="col-lg-4">
-											<a href="#" class="nolink">VARIATION 2</a>
+											<a href="cart.html#" class="nolink">VARIATION 2</a>
 											<ul class="submenu">
 												<li><a href="category-list.html">List Types</a></li>
 												<li><a href="category-infinite-scroll.html">Ajax Infinite Scroll</a>
@@ -296,11 +305,12 @@
 										<div class="col-lg-4 p-0">
 											<div class="menu-banner">
 												<figure>
-													<img src="/images/menu-banner.jpg" width="192" height="313" alt="Menu banner">
+													<img src="/images/menu-banner.jpg" width="192" height="313"
+														alt="Menu banner">
 												</figure>
 												<div class="banner-content">
 													<h4>
-														<span class="">UP TO</span><br>
+														<span class="">UP TO</span><br />
 														<b class="">50%</b>
 														<i>OFF</i>
 													</h4>
@@ -316,7 +326,7 @@
 								<div class="megamenu megamenu-fixed-width">
 									<div class="row">
 										<div class="col-lg-4">
-											<a href="#" class="nolink">PRODUCT PAGES</a>
+											<a href="cart.html#" class="nolink">PRODUCT PAGES</a>
 											<ul class="submenu">
 												<li><a href="product.html">SIMPLE PRODUCT</a></li>
 												<li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
@@ -330,7 +340,7 @@
 										</div><!-- End .col-lg-4 -->
 
 										<div class="col-lg-4">
-											<a href="#" class="nolink">PRODUCT LAYOUTS</a>
+											<a href="cart.html#" class="nolink">PRODUCT LAYOUTS</a>
 											<ul class="submenu">
 												<li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
 												<li><a href="product-grid-layout.html">GRID IMAGE</a></li>
@@ -339,19 +349,20 @@
 												<li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
 												<li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
 												<li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
-												<li><a href="#">BUILD YOUR OWN</a></li>
+												<li><a href="cart.html#">BUILD YOUR OWN</a></li>
 											</ul>
 										</div><!-- End .col-lg-4 -->
 
 										<div class="col-lg-4 p-0">
 											<div class="menu-banner menu-banner-2">
 												<figure>
-													<img src="/images/menu-banner-1.jpg" width="182" height="317" alt="Menu banner" class="product-promo">
+													<img src="/images/menu-banner-1.jpg" width="182" height="317"
+														alt="Menu banner" class="product-promo">
 												</figure>
 												<i>OFF</i>
 												<div class="banner-content">
 													<h4>
-														<span class="">UP TO</span><br>
+														<span class="">UP TO</span><br />
 														<b class="">50%</b>
 													</h4>
 												</div>
@@ -362,14 +373,14 @@
 								</div><!-- End .megamenu -->
 							</li>
 							<li class="active">
-								<a href="#">Pages</a>
+								<a href="cart.html#">Pages</a>
 								<ul>
 									<li><a href="wishlist.html">Wishlist</a></li>
 									<li><a href="cart.html">Shopping Cart</a></li>
 									<li><a href="checkout.html">Checkout</a></li>
 									<li><a href="dashboard.html">Dashboard</a></li>
 									<li><a href="about.html">About Us</a></li>
-									<li><a href="#">Blog</a>
+									<li><a href="cart.html#">Blog</a>
 										<ul>
 											<li><a href="blog.html">Blog</a></li>
 											<li><a href="single.html">Blog Post</a></li>
@@ -382,7 +393,7 @@
 							</li>
 							<li><a href="blog.html">Blog</a></li>
 							<li>
-								<a href="#">Elements</a>
+								<a href="cart.html#">Elements</a>
 								<ul class="custom-scrollbar">
 									<li><a href="element-accordions.html">Accordion</a></li>
 									<li><a href="element-alerts.html">Alerts</a></li>
@@ -403,8 +414,9 @@
 								</ul>
 							</li>
 							<li><a href="contact.html">Contact Us</a></li>
-							<li class="float-right"><a href="https://1.envato.market/DdLk5" class="pl-5" target="_blank">Buy Porto!</a></li>
-							<li class="float-right"><a href="#" class="pl-5">Special Offer!</a></li>
+							<li class="float-right"><a href="https://1.envato.market/DdLk5" class="pl-5"
+									target="_blank">Buy Porto!</a></li>
+							<li class="float-right"><a href="cart.html#" class="pl-5">Special Offer!</a></li>
 						</ul>
 					</nav>
 				</div><!-- End .container -->
@@ -443,10 +455,10 @@
 										<td>
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="/images/product-4.jpg" alt="product">
+													<img src="/images/products/product-4.jpg" alt="product">
 												</a>
 
-												<a href="#" class="btn-remove icon-cancel" title="Remove Product"></a>
+												<a href="cart.html#" class="btn-remove icon-cancel" title="Remove Product"></a>
 											</figure>
 										</td>
 										<td class="product-col">
@@ -467,10 +479,10 @@
 										<td>
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="/images/product-3.jpg" alt="product">
+													<img src="/images/products/product-3.jpg" alt="product">
 												</a>
 
-												<a href="#" class="btn-remove icon-cancel" title="Remove Product"></a>
+												<a href="cart.html#" class="btn-remove icon-cancel" title="Remove Product"></a>
 											</figure>
 										</td>
 										<td class="product-col">
@@ -491,10 +503,10 @@
 										<td>
 											<figure class="product-image-container">
 												<a href="product.html" class="product-image">
-													<img src="/images/product-6.jpg" alt="product">
+													<img src="/images/products/product-6.jpg" alt="product">
 												</a>
 
-												<a href="#" class="btn-remove icon-cancel" title="Remove Product"></a>
+												<a href="cart.html#" class="btn-remove icon-cancel" title="Remove Product"></a>
 											</figure>
 										</td>
 										<td class="product-col">
@@ -518,9 +530,10 @@
 										<td colspan="5" class="clearfix">
 											<div class="float-left">
 												<div class="cart-discount">
-													<form action="#">
+													<form action="cart.html#">
 														<div class="input-group">
-															<input type="text" class="form-control form-control-sm" placeholder="Coupon Code" required="">
+															<input type="text" class="form-control form-control-sm"
+																placeholder="Coupon Code" required>
 															<div class="input-group-append">
 																<button class="btn btn-sm" type="submit">Apply
 																	Coupon</button>
@@ -559,7 +572,8 @@
 
 											<div class="form-group form-group-custom-control">
 												<div class="custom-control custom-radio">
-													<input type="radio" class="custom-control-input" name="radio" checked="">
+													<input type="radio" class="custom-control-input" name="radio"
+														checked>
 													<label class="custom-control-label">Local pickup</label>
 												</div><!-- End .custom-checkbox -->
 											</div><!-- End .form-group -->
@@ -571,7 +585,7 @@
 												</div><!-- End .custom-checkbox -->
 											</div><!-- End .form-group -->
 
-											<form action="#">
+											<form action="cart.html#">
 												<div class="form-group form-group-sm">
 													<label>Shipping to <strong>NY.</strong></label>
 													<div class="select-custom">
@@ -595,11 +609,13 @@
 												</div><!-- End .form-group -->
 
 												<div class="form-group form-group-sm">
-													<input type="text" class="form-control form-control-sm" placeholder="Town / City">
+													<input type="text" class="form-control form-control-sm"
+														placeholder="Town / City">
 												</div><!-- End .form-group -->
 
 												<div class="form-group form-group-sm">
-													<input type="text" class="form-control form-control-sm" placeholder="ZIP">
+													<input type="text" class="form-control form-control-sm"
+														placeholder="ZIP">
 												</div><!-- End .form-group -->
 
 												<button type="submit" class="btn btn-shop btn-update-total">
@@ -646,7 +662,7 @@
 											456-7890</a>
 									</li>
 									<li>
-										<span class="contact-info-label">Email:</span> <a href="/cdn-cgi/l/email-protection#ef828e8683af8a978e829f838ac18c8082"><span class="__cf_email__" data-cfemail="305d51595c705548515d405c551e535f5d">[email protected]</span></a>
+										<span class="contact-info-label">Email:</span> <a href="https://portotheme.com/cdn-cgi/l/email-protection#600d01090c200518010d100c054e030f0d"><span class="__cf_email__" data-cfemail="036e626a6f43667b626e736f662d606c6e">[email&#160;protected]</span></a>
 									</li>
 									<li>
 										<span class="contact-info-label">Working Days/Hours:</span>
@@ -654,9 +670,12 @@
 									</li>
 								</ul>
 								<div class="social-icons">
-									<a href="#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
-									<a href="#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
-									<a href="#" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
+									<a href="cart.html#" class="social-icon social-facebook icon-facebook" target="_blank"
+										title="Facebook"></a>
+									<a href="cart.html#" class="social-icon social-twitter icon-twitter" target="_blank"
+										title="Twitter"></a>
+									<a href="cart.html#" class="social-icon social-instagram icon-instagram" target="_blank"
+										title="Instagram"></a>
 								</div><!-- End .social-icons -->
 							</div><!-- End .widget -->
 						</div><!-- End .col-lg-3 -->
@@ -666,16 +685,16 @@
 								<h4 class="widget-title">Customer Service</h4>
 
 								<ul class="links">
-									<li><a href="#">Help & FAQs</a></li>
-									<li><a href="#">Order Tracking</a></li>
-									<li><a href="#">Shipping & Delivery</a></li>
-									<li><a href="#">Orders History</a></li>
-									<li><a href="#">Advanced Search</a></li>
+									<li><a href="cart.html#">Help & FAQs</a></li>
+									<li><a href="cart.html#">Order Tracking</a></li>
+									<li><a href="cart.html#">Shipping & Delivery</a></li>
+									<li><a href="cart.html#">Orders History</a></li>
+									<li><a href="cart.html#">Advanced Search</a></li>
 									<li><a href="dashboard.html">My Account</a></li>
-									<li><a href="#">Careers</a></li>
+									<li><a href="cart.html#">Careers</a></li>
 									<li><a href="about.html">About Us</a></li>
-									<li><a href="#">Corporate Sales</a></li>
-									<li><a href="#">Privacy</a></li>
+									<li><a href="cart.html#">Corporate Sales</a></li>
+									<li><a href="cart.html#">Privacy</a></li>
 								</ul>
 							</div><!-- End .widget -->
 						</div><!-- End .col-lg-3 -->
@@ -685,17 +704,17 @@
 								<h4 class="widget-title">Popular Tags</h4>
 
 								<div class="tagcloud">
-									<a href="#">Bag</a>
-									<a href="#">Black</a>
-									<a href="#">Blue</a>
-									<a href="#">Clothes</a>
-									<a href="#">Fashion</a>
-									<a href="#">Hub</a>
-									<a href="#">Shirt</a>
-									<a href="#">Shoes</a>
-									<a href="#">Skirt</a>
-									<a href="#">Sports</a>
-									<a href="#">Sweater</a>
+									<a href="cart.html#">Bag</a>
+									<a href="cart.html#">Black</a>
+									<a href="cart.html#">Blue</a>
+									<a href="cart.html#">Clothes</a>
+									<a href="cart.html#">Fashion</a>
+									<a href="cart.html#">Hub</a>
+									<a href="cart.html#">Shirt</a>
+									<a href="cart.html#">Shoes</a>
+									<a href="cart.html#">Skirt</a>
+									<a href="cart.html#">Sports</a>
+									<a href="cart.html#">Sweater</a>
 								</div>
 							</div><!-- End .widget -->
 						</div><!-- End .col-lg-3 -->
@@ -705,8 +724,8 @@
 								<h4 class="widget-title">Subscribe newsletter</h4>
 								<p>Get all the latest information on events, sales and offers. Sign up for newsletter:
 								</p>
-								<form action="#" class="mb-0">
-									<input type="email" class="form-control m-b-3" placeholder="Email address" required="">
+								<form action="cart.html#" class="mb-0">
+									<input type="email" class="form-control m-b-3" placeholder="Email address" required>
 
 									<input type="submit" class="btn btn-primary shadow-none" value="Subscribe">
 								</form>
@@ -725,10 +744,14 @@
 
 						<div class="footer-right ml-auto mt-1 mt-sm-0">
 							<div class="payment-icons">
-								<span class="payment-icon visa" style="background-image: url(images/payment-visa.svg)"></span>
-								<span class="payment-icon paypal" style="background-image: url(images/payment-paypal.svg)"></span>
-								<span class="payment-icon stripe" style="background-image: url(images/payment-stripe.png)"></span>
-								<span class="payment-icon verisign" style="background-image:  url(images/payment-verisign.svg)"></span>
+								<span class="payment-icon visa"
+									style="background-image: url(/images/payments/payment-visa.svg)"></span>
+								<span class="payment-icon paypal"
+									style="background-image: url(/images/payments/payment-paypal.svg)"></span>
+								<span class="payment-icon stripe"
+									style="background-image: url(/images/payments/payment-stripe.png)"></span>
+								<span class="payment-icon verisign"
+									style="background-image:  url(/images/payments/payment-verisign.svg)"></span>
 							</div>
 						</div>
 					</div>
@@ -759,13 +782,14 @@
 							<li><a href="category.html">Full Width Banner</a></li>
 							<li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
 							<li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
-							<li><a href="category-sidebar-left.html">Left Sidebar</a></li>
+							<li><a href="https://portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left Sidebar</a></li>
 							<li><a href="category-sidebar-right.html">Right Sidebar</a></li>
 							<li><a href="category-off-canvas.html">Off Canvas Filter</a></li>
 							<li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
 							<li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
-							<li><a href="#">List Types</a></li>
-							<li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span class="tip tip-new">New</span></a></li>
+							<li><a href="cart.html#">List Types</a></li>
+							<li><a href="category-infinite-scroll.html">Ajax Infinite Scroll<span
+										class="tip tip-new">New</span></a></li>
 							<li><a href="category.html">3 Columns Products</a></li>
 							<li><a href="category-4col.html">4 Columns Products</a></li>
 							<li><a href="category-5col.html">5 Columns Products</a></li>
@@ -778,7 +802,7 @@
 						<a href="product.html">Products</a>
 						<ul>
 							<li>
-								<a href="#" class="nolink">PRODUCT PAGES</a>
+								<a href="cart.html#" class="nolink">PRODUCT PAGES</a>
 								<ul>
 									<li><a href="product.html">SIMPLE PRODUCT</a></li>
 									<li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
@@ -791,7 +815,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#" class="nolink">PRODUCT LAYOUTS</a>
+								<a href="cart.html#" class="nolink">PRODUCT LAYOUTS</a>
 								<ul>
 									<li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
 									<li><a href="product-grid-layout.html">GRID IMAGE</a></li>
@@ -800,13 +824,13 @@
 									<li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
 									<li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
 									<li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
-									<li><a href="#">BUILD YOUR OWN</a></li>
+									<li><a href="cart.html#">BUILD YOUR OWN</a></li>
 								</ul>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="#">Pages<span class="tip tip-hot">Hot!</span></a>
+						<a href="cart.html#">Pages<span class="tip tip-hot">Hot!</span></a>
 						<ul>
 							<li>
 								<a href="wishlist.html">Wishlist</a>
@@ -829,7 +853,7 @@
 						</ul>
 					</li>
 					                                <li><a href="blog.html">Blog</a></li>                                
-                                <li><a href="#">Elements</a>
+                                <li><a href="cart.html#">Elements</a>
                         <ul class="custom-scrollbar">
                             <li><a href="element-accordions.html">Accordion</a></li>
                             <li><a href="element-alerts.html">Alerts</a></li>
@@ -853,12 +877,12 @@
 
 				<ul class="mobile-menu mt-2 mb-2">
 					<li class="border-0">
-						<a href="#">
+						<a href="cart.html#">
 							Special Offer!
 						</a>
 					</li>
 					<li class="border-0">
-						<a href="#" target="_blank">
+						<a href="cart.html#" target="_blank">
 							Buy Porto!
 							<span class="tip tip-hot">Hot</span>
 						</a>
@@ -875,17 +899,17 @@
 				</ul>
 			</nav><!-- End .mobile-nav -->
 
-			<form class="search-wrapper mb-2" action="#">
-				<input type="text" class="form-control mb-0" placeholder="Search..." required="">
+			<form class="search-wrapper mb-2" action="cart.html#">
+				<input type="text" class="form-control mb-0" placeholder="Search..." required />
 				<button class="btn icon-search text-white bg-transparent p-0" type="submit"></button>
 			</form>
 
 			<div class="social-icons">
-				<a href="#" class="social-icon social-facebook icon-facebook" target="_blank">
+				<a href="cart.html#" class="social-icon social-facebook icon-facebook" target="_blank">
 				</a>
-				<a href="#" class="social-icon social-twitter icon-twitter" target="_blank">
+				<a href="cart.html#" class="social-icon social-twitter icon-twitter" target="_blank">
 				</a>
-				<a href="#" class="social-icon social-instagram icon-instagram" target="_blank">
+				<a href="cart.html#" class="social-icon social-instagram icon-instagram" target="_blank">
 				</a>
 			</div>
 		</div><!-- End .mobile-menu-wrapper -->
@@ -923,15 +947,15 @@
 
 
 
-	<a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+	<a id="scroll-top" href="cart.html#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 
 	<!-- Plugins JS File -->
-	<script type="module" data-cfasync="false" src="/js/email-decode.min.js"></script><script type="module" src="/js/jquery.min.js"></script>
+	<script type="module" data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="/js/jquery.min.js"></script>
 	<script type="module" src="/js/bootstrap.bundle.min.js"></script>
 	<script type="module" src="/js/plugins.min.js"></script>
 
 	<!-- Main JS File -->
 	<script type="module" src="/js/main.min.js"></script>
-<script type="module">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f38b9c17de312f7',t:'MTc3NzQwNzE4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+<script type="module">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f3f294b0cf2f16d',t:'MTc3NzQ3NDY2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 
-</body></html>
+</html>
