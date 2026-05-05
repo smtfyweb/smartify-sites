@@ -1,0 +1,216 @@
+
+> porto_sanitizado@1.0.0 build
+> vite build
+
+vite v8.0.10 building client environment for production...
+[2Ktransforming...
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/blog.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-sticky-info.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/wishlist.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/checkout.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-list.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-transparent-image.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/demo1-product.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/demo1-about.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-center-vertical.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-horizontal-filter2.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-infinite-scroll.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/dashboard.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/demo1-contact.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-horizontal-filter1.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-sidebar-left.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-banner-boxed-slider.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-sidebar-right.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-variable.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/cart.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-custom-tab.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-8col.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/forgot-password.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-off-canvas.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-grid-layout.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-5col.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-7col.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-sidebar-right.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-banner-boxed-image.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-sidebar-left.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/login.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-full-width.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-extended-layout.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/product-addcart-sticky.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-6col.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/category-4col.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/demo1-shop.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/single.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+Mixed async and defer script modules in /home/sfy/Downloads/porto_sanitizado/porto_sanitizado/src/demo1.html, output script will fallback to defer. Every script, including inline ones, need to be marked as async for your output script to be async.
+
+images/payment-stripe.png referenced in images/payment-stripe.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/payment-verisign.svg referenced in images/payment-verisign.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/page-header-bg.jpg referenced in images/page-header-bg.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/payment-visa.svg referenced in images/payment-visa.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/payment-paypal.svg referenced in images/payment-paypal.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/banner-top.jpg referenced in images/banner-top.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/owl.video.play.png referenced in ../images/owl.video.play.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/elements/alert/close.svg referenced in ../images/elements/alert/close.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/flags.png referenced in ../images/flags.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.eot?64334846 referenced in ../fonts/porto.eot?64334846 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.eot?64334846#iefix referenced in ../fonts/porto.eot?64334846 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/Simple-Line-Icons.eot referenced in ../fonts/Simple-Line-Icons.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/Simple-Line-Icons.eot#iefix referenced in ../fonts/Simple-Line-Icons.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+images/newsletter_popup_bg.jpg referenced in images/newsletter_popup_bg.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-brands-400.eot referenced in ../fonts/fa-brands-400.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-brands-400.eot#iefix referenced in ../fonts/fa-brands-400.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-regular-400.eot referenced in ../fonts/fa-regular-400.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-regular-400.eot#iefix referenced in ../fonts/fa-regular-400.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-solid-900.eot referenced in ../fonts/fa-solid-900.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-solid-900.eot#iefix referenced in ../fonts/fa-solid-900.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.eot referenced in ../fonts/porto.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.eot#iefix referenced in ../fonts/porto.eot didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/close.svg referenced in ../images/close.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/s1.png referenced in ../images/s1.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/sparkle1.png referenced in ../images/sparkle1.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.woff2?64334846 referenced in ../fonts/porto.woff2?64334846 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/Simple-Line-Icons.ttf referenced in ../fonts/Simple-Line-Icons.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-brands-400.woff2 referenced in ../fonts/fa-brands-400.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-regular-400.woff2 referenced in ../fonts/fa-regular-400.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-solid-900.woff2 referenced in ../fonts/fa-solid-900.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.woff2 referenced in ../fonts/porto.woff2 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/s2.png referenced in ../images/s2.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/sparkle2.png referenced in ../images/sparkle2.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.woff?64334846 referenced in ../fonts/porto.woff?64334846 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/Simple-Line-Icons.woff referenced in ../fonts/Simple-Line-Icons.woff didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-brands-400.woff referenced in ../fonts/fa-brands-400.woff didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-regular-400.woff referenced in ../fonts/fa-regular-400.woff didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-solid-900.woff referenced in ../fonts/fa-solid-900.woff didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.woff referenced in ../fonts/porto.woff didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/s3.png referenced in ../images/s3.png didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.ttf?64334846 referenced in ../fonts/porto.ttf?64334846 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/Simple-Line-Icons.svg#Simple-Line-Icons referenced in ../images/Simple-Line-Icons.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-brands-400.ttf referenced in ../fonts/fa-brands-400.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-regular-400.ttf referenced in ../fonts/fa-regular-400.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/fa-solid-900.ttf referenced in ../fonts/fa-solid-900.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.ttf referenced in ../fonts/porto.ttf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../fonts/porto.svg?64334846#porto referenced in ../fonts/porto.svg?64334846 didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/fa-brands-400.svg#fontawesome referenced in ../images/fa-brands-400.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/fa-regular-400.svg#fontawesome referenced in ../images/fa-regular-400.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/fa-solid-900.svg#fontawesome referenced in ../images/fa-solid-900.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../images/porto.svg#porto referenced in ../images/porto.svg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+✓ 304 modules transformed.
+rendering chunks...
+✗ Build failed in 847ms
+error during build:
+Build failed with 1 error:
+
+[plugin vite:css-post]
+SyntaxError: [lightningcss minify] Unexpected token Semicolon.
+This file contains star property hack (e.g. `*zoom`), which was used in the past to support old Internet Explorer versions. This is not a valid CSS syntax and will be ignored by modern browsers. 
+While this is not supported by LightningCSS, you can set `css.lightningcss.errorRecovery: true` to strip these codes.
+799 |    display: inline-block;
+800 |    zoom: 1;
+801 |    *display: inline;
+    |                    ^
+802 |  }
+803 |  .owl-theme .owl-dots .owl-dot span {
+    at Module.<anonymous> (/home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/lightningcss/node/index.js:56:14)
+    at minifyCSS (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/vite/dist/node/chunks/node.js:21304:59)
+    at async finalizeCss (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/vite/dist/node/chunks/node.js:21149:36)
+    at async Promise.all (index 1)
+    at aggregateBindingErrorsIntoJsError (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:48:18)
+    at unwrapBindingResult (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/rolldown/dist/shared/error-DL-e8-oE.mjs:18:128)
+    at #build (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/rolldown/dist/shared/rolldown-build-DSxL8qiP.mjs:3317:34)
+    at async buildEnvironment (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/vite/dist/node/chunks/node.js:33018:64)
+    at async Object.build (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/vite/dist/node/chunks/node.js:33440:19)
+    at async Object.buildApp (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/vite/dist/node/chunks/node.js:33437:153)
+    at async CAC.<anonymous> (file:///home/sfy/Downloads/porto_sanitizado/porto_sanitizado/node_modules/vite/dist/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}
